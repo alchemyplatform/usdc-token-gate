@@ -42,6 +42,7 @@ async function getAmountTokensSent(userAddress) {
     fromBlock: "0x0",
     toBlock: "latest",
     fromAddress: userAddress,
+    // merchant address! replace with one you own!
     toAddress: "0x2c8645BFE28BEEb6E19843eE9573b7539DD5B530",
     excludeZeroValue: true,
     category: [AssetTransfersCategory.ERC20],
